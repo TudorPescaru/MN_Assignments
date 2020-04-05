@@ -11,7 +11,7 @@ Automatic Control and Computers
 sparse matrices to solve an experiment based on the probability a mice trapped 
 in a triangle maze has to reach a coridor with food.
 
-![Part1](https://github.com/TudorPescaru/MN_Assignments/tree/master/MN1/maze.png)
+![Part1](https://github.com/TudorPescaru/MN_Assignments/blob/master/MN1/maze.png)
 
 * The second part uses the K-Means n-dimensional clustering algorith to teach 
 a model to separate optimally a set of D-dimensional points in NC clusters.
