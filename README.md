@@ -19,8 +19,10 @@ a model to separate optimally a set of D-dimensional points in NC clusters.
 * The third part uses Householder factorization and the upper-triangular system 
 algorithm to solve an Ax=b system where A is a matrix of image histograms created 
 from a dataset of cat and non-cat images, x is a trained model and y is a set of 
-image clases. This model is then used with a test set of cat and non-cat images
-in an attempt to corectly calsify the images. The success rate is arround 80%.
+image clases, these are represented as a vector of 1 for cat images and -1 for 
+non-cat images. The histograms can be built in both RGB and HSV formats. This 
+model is then used with a test set of cat and non-cat images in an attempt to 
+corectly calsify the images. The success rate is arround 85%.
 
 * The fourth and final part is a redesign of the third part to accomodate very 
 large sets of data. This time we use the Gradient Descent iterative algorithm 
