@@ -82,9 +82,10 @@ matrici nepatratice.
 
 ## preprocess
 Am construit path-urile catre folderele cats si not-cats iar apoi am extras 
-imaginile din fiecare folosind dir si am trecut prin fiecare contruind 
-histograma rgb sau hsv in functie de caz, adaugand aceasta histograma la 
-matricea de histograme si adaugand 1 sau -1 in vectorul de clasificare.
+imaginile din fiecare folosind functia getImgNames datasi am trecut prin 
+fiecare contruind histograma rgb sau hsv in functie de caz, adaugand aceasta 
+histograma la matricea de histograme si adaugand 1 sau -1 in vectorul de 
+clasificare.
 
 ## learn
 Am construit X-tilda adaugand coloana termenilor de bias si am aplicat 
