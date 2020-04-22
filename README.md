@@ -37,12 +37,13 @@ images, the average accuracy of the model is only around 60%.
 
 This assignment tackled the behind-the-scenes of the Google search engine. 
 More speciffically it was centered around the **PageRank** algorith. The 
-assignment was split into 3 small parts. The first part involved the 
-implementation of the **Iterative** variant of the algorithm. The second part 
-implemented the **Algebraic** variant of the algorithm. This part also required 
-the implementation of a **Modified Gram-Schmidt** factorization algorithm to 
-efficiently calculate the inverse of a matrix. The final part involved using 
-a member function to calculate the **Fuzzy Logic** values for each page and 
-sort all the analysed pages in order of importance, thus emulating the process 
-behind a Google search.
+assignment was split into 3 small parts. 
+* The first part involved the implementation of the **Iterative** variant of 
+the algorithm. 
+* The second part implemented the **Algebraic** variant of the algorithm. This 
+part also required the implementation of a **Modified Gram-Schmidt** 
+factorization algorithm to efficiently calculate the inverse of a matrix. 
+* The final part involved using a member function to calculate the **Fuzzy 
+Logic** values for each page and sort all the analysed pages in order of 
+importance, thus emulating the process behind a Google search.
 
